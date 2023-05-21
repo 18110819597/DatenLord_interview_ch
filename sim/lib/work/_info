@@ -1,0 +1,69 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/PILIX/Desktop/520_datalord/sim
+T_opt
+!s110 1684660594
+VTe?CzV<1PFC[<VBUOV_V>3
+04 27 4 work tb_axi_stream_insert_header fast 0
+=1-e00af64a5d93-6469e172-165-66d0
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2019.2;69
+R0
+vaxi_stream_insert_header
+Z2 !s110 1684660770
+!i10b 1
+!s100 Lz4=fhle?5J3oZcZI]V<80
+!s11b 0THJSd]WAAB@XMX>@PChP0
+IWRX[@0n_MD`o^IFNM^4g=0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1684658861
+8../rtl/axi_stream_insert_header.v
+F../rtl/axi_stream_insert_header.v
+L0 1
+Z4 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z5 !s108 1684660770.000000
+!s107 ../tb/tb_axi_stream_insert_header.v|../rtl/axi_stream_insert_header.v|
+Z6 !s90 -reportprogress|300|-f|./rtl_cover.lst|-cover|bcesxf|
+!i113 0
+Z7 !s102 -cover bcesxf
+Z8 o-cover bcesxf -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 !s92 +define+COV -cover bcesxf -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_axi_stream_insert_header
+R2
+!i10b 1
+!s100 @DeN`??]0NXRaJzJKWSlC1
+!s11b W]L=F1W;ofS_H4;MWSo[C3
+Ia1dXg;kLMXJ?32iTBi`BH2
+R3
+R0
+w1684660582
+8../tb/tb_axi_stream_insert_header.v
+F../tb/tb_axi_stream_insert_header.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+Z10 !s107 ../tb/tb_axi_stream_insert_header.v|../rtl/axi_stream_insert_header.v|
+R6
+!i113 0
+R7
+R8
+R9
+R1

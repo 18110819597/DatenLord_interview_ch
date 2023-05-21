@@ -1,0 +1,3 @@
++define+COV
+../rtl/axi_stream_insert_header.v
+../tb/tb_axi_stream_insert_header.v

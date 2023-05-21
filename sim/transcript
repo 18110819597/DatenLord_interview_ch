@@ -1,0 +1,42 @@
+# //  ModelSim SE-64 2019.2 Apr 17 2019
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# ./wave.do
+# 0
+# ** Warning: (vlib-34) Library already exists at "./lib/".
+# ** Warning: (vlib-34) Library already exists at "./lib/work".
+# Model Technology ModelSim SE-64 vmap 2019.2 Lib Mapping Utility 2019.04 Apr 17 2019
+# vmap work ./lib/work 
+# Modifying D:\Xilinx\Xlib\modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:19:30 on May 21,2023
+# vlog -reportprogress 300 -f ./rtl_cover.lst -cover bcesxf 
+# -- Compiling module axi_stream_insert_header
+# -- Compiling module tb_axi_stream_insert_header
+# 
+# Top level modules:
+# 	tb_axi_stream_insert_header
+# End time: 17:19:30 on May 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_axi_stream_insert_header 
+# Start time: 17:19:30 on May 21,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb_axi_stream_insert_header(fast)
+# Loading work.axi_stream_insert_header(fast)
+# ** Note: $finish    : ../tb/tb_axi_stream_insert_header.v(53)
+#    Time: 2020 ns  Iteration: 0  Instance: /tb_axi_stream_insert_header
+# 1
+# Break in Module tb_axi_stream_insert_header at ../tb/tb_axi_stream_insert_header.v line 53
+# End time: 17:19:44 on May 21,2023, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0
